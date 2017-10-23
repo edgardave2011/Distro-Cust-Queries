@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="sub_category" table="x_spog_distributio_distribution_customer_queries" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Enquiry</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Availability</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2017-10-09 15:11:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>83243e48db7d87002ab570d9bf96199c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-10-09 15:11:28</sys_updated_on>
+            <value>Availability</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Delivery</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Change of Address</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2017-10-09 15:09:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1dd3f648db7d87002ab570d9bf96195c</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-10-09 15:25:49</sys_updated_on>
+            <value>Change of Address</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Enquiry</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Chase</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2017-10-09 15:10:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53d3f648db7d87002ab570d9bf961964</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-10-09 15:11:04</sys_updated_on>
+            <value>Chase</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Quality</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Coating</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2017-10-09 15:09:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05d3f648db7d87002ab570d9bf961952</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-10-09 15:25:50</sys_updated_on>
+            <value>Coating</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Enquiry</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Credit Chase</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2017-10-09 15:11:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2054fa48db7d87002ab570d9bf9619e5</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-10-09 15:11:50</sys_updated_on>
+            <value>Credit Chase</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Enquiry</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Invoice Query</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2017-10-09 15:11:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>66347e48db7d87002ab570d9bf961924</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-10-09 15:11:39</sys_updated_on>
+            <value>Invoice Query</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Delivery</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No Delivery</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2017-10-09 15:09:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>15d3f648db7d87002ab570d9bf961959</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-10-09 15:25:49</sys_updated_on>
+            <value>No Delivery</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Quality</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Prescription</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2017-10-09 15:09:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0dd3f648db7d87002ab570d9bf961955</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-10-09 15:25:49</sys_updated_on>
+            <value>Prescription</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Quality</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Scratch</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2017-10-09 15:09:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>01d3f648db7d87002ab570d9bf961954</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-10-09 15:25:50</sys_updated_on>
+            <value>Scratch</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Quality</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Thickness</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2017-10-09 15:09:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>09d3f648db7d87002ab570d9bf961950</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-10-09 15:25:50</sys_updated_on>
+            <value>Thickness</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Quality</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tint</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2017-10-09 15:09:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0dd3b248db7d87002ab570d9bf96191b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-10-09 15:25:50</sys_updated_on>
+            <value>Tint</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Delivery</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wrong Delivery</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2017-10-09 15:09:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>11d3f648db7d87002ab570d9bf96195b</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-10-09 15:25:49</sys_updated_on>
+            <value>Wrong Delivery</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Delivery</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence>1</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2017-10-09 15:09:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>19d3f648db7d87002ab570d9bf961957</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-10-09 15:26:03</sys_updated_on>
+            <value>Other_Delivery</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Enquiry</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence>1</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2017-10-09 15:11:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>af54fe48db7d87002ab570d9bf961958</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-10-09 15:26:03</sys_updated_on>
+            <value>Other_Enquiry</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Quality</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence>1</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2017-10-09 15:12:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>51647288db7d87002ab570d9bf961963</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-10-09 15:26:03</sys_updated_on>
+            <value>Other_Quality</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>sub_category</element>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2017-10-09 15:09:25</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>c1d3f648db7d87002ab570d9bf961950</sys_id>
+            <sys_mod_count>45</sys_mod_count>
+            <sys_name>sub_category</sys_name>
+            <sys_package display_value="Distribution Customer Queries" source="x_spog_distributio">456c22ccdb3d87002ab570d9bf9619cb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Distribution Customer Queries">456c22ccdb3d87002ab570d9bf9619cb</sys_scope>
+            <sys_update_name>sys_choice_x_spog_distributio_distribution_customer_queries_sub_category</sys_update_name>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-10-09 15:26:03</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

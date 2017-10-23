@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Distribution Customer Queries" max_length="40" name="x_spog_distributio_distribution_customer_queries" sizeclass="2" type="collection">
+        <element label="Caller" max_length="32" name="caller" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Category" mandatory="true" max_length="40" name="category" type="string">
+            <choice>
+                <element label="Quality" sequence="0" value="Quality"/>
+                <element label="Delivery" sequence="1" value="Delivery"/>
+                <element label="Enquiry" sequence="2" value="Enquiry"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="category" dependent_on_field="category" label="Sub Category" mandatory="true" max_length="40" name="sub_category" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Enquiry" label="Availability" value="Availability"/>
+                <element dependent_value="Delivery" label="Change of Address" value="Change of Address"/>
+                <element dependent_value="Enquiry" label="Chase" value="Chase"/>
+                <element dependent_value="Quality" label="Coating" value="Coating"/>
+                <element dependent_value="Enquiry" label="Credit Chase" value="Credit Chase"/>
+                <element dependent_value="Enquiry" label="Invoice Query" value="Invoice Query"/>
+                <element dependent_value="Delivery" label="No Delivery" value="No Delivery"/>
+                <element dependent_value="Quality" label="Prescription" value="Prescription"/>
+                <element dependent_value="Quality" label="Scratch" value="Scratch"/>
+                <element dependent_value="Quality" label="Thickness" value="Thickness"/>
+                <element dependent_value="Quality" label="Tint" value="Tint"/>
+                <element dependent_value="Delivery" label="Wrong Delivery" value="Wrong Delivery"/>
+                <element dependent_value="Delivery" label="Other" sequence="1" value="Other_Delivery"/>
+                <element dependent_value="Quality" label="Other" sequence="1" value="Other_Quality"/>
+                <element dependent_value="Enquiry" label="Other" sequence="1" value="Other_Enquiry"/>
+            </choice>
+        </element>
+        <element label="Caller Name" max_length="40" name="x_dcq_caller_name" type="string"/>
+        <element choice="1" label="Call Type" mandatory="true" max_length="40" name="x_dcq_call_type" type="choice">
+            <choice>
+                <element label="Enquiry" sequence="0" value="Enquiry"/>
+                <element label="Problem" sequence="1" value="Problem"/>
+            </choice>
+        </element>
+        <element label="Job Number" max_length="40" name="x_dcq_job_number" type="string"/>
+        <element label="MDQ Problem Ref" max_length="40" name="x_dcq_mdq_problem" type="string"/>
+        <element label="Order Reference Number" max_length="40" name="x_dcq_order_ref_number" type="string"/>
+        <element choice="1" label="Product" mandatory="true" max_length="40" name="x_dcq_product" type="choice">
+            <choice>
+                <element label="Finished Lens" sequence="0" value="Finished Lens"/>
+                <element label="Case" sequence="1" value="Case"/>
+                <element label="Consumable" sequence="2" value="Consumable"/>
+                <element label="Accessory" sequence="3" value="Accessory"/>
+            </choice>
+        </element>
+        <element label="Quality Reference" max_length="40" name="x_dcq_quality_ref" type="string"/>
+    </element>
+</database>
