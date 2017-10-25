@@ -6,38 +6,38 @@
             <element>category</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Quality</label>
+            <label>Delivery</label>
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
-            <sequence>0</sequence>
+            <sequence/>
             <sys_created_by>david.edgar</sys_created_by>
             <sys_created_on>2017-10-09 15:08:26</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>4f93f248db7d87002ab570d9bf96193d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>0f93f248db7d87002ab570d9bf96193f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-09 15:08:26</sys_updated_on>
-            <value>Quality</value>
+            <sys_updated_on>2017-10-25 12:11:35</sys_updated_on>
+            <value>Delivery</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>category</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Delivery</label>
+            <label>Delivery CR</label>
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
-            <sequence>1</sequence>
+            <sequence/>
             <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-09 15:08:26</sys_created_on>
+            <sys_created_on>2017-10-25 11:58:56</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0f93f248db7d87002ab570d9bf96193f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>0e91ac95dbce87402ab570d9bf961925</sys_id>
+            <sys_mod_count>7</sys_mod_count>
             <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-09 15:08:26</sys_updated_on>
-            <value>Delivery</value>
+            <sys_updated_on>2017-10-25 12:09:57</sys_updated_on>
+            <value>Delivery CR</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -47,16 +47,73 @@
             <label>Enquiry</label>
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
-            <sequence>2</sequence>
+            <sequence/>
             <sys_created_by>david.edgar</sys_created_by>
             <sys_created_on>2017-10-09 15:08:26</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>0b93f248db7d87002ab570d9bf961941</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-09 15:08:26</sys_updated_on>
+            <sys_updated_on>2017-10-25 12:11:35</sys_updated_on>
             <value>Enquiry</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Essilor</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2017-10-25 11:21:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ede814dddb8e87402ab570d9bf961909</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-10-25 11:24:46</sys_updated_on>
+            <value>Essilor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Quality</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2017-10-09 15:08:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4f93f248db7d87002ab570d9bf96193d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-10-25 12:11:35</sys_updated_on>
+            <value>Quality</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Special</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2017-10-25 11:21:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e21910dddb8e87402ab570d9bf9619b5</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-10-25 11:24:43</sys_updated_on>
+            <value>Special</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>category</element>
@@ -66,7 +123,7 @@
             <sys_created_on>2017-10-09 15:08:26</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>c793f248db7d87002ab570d9bf96193f</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>30</sys_mod_count>
             <sys_name>category</sys_name>
             <sys_package display_value="Distribution Customer Queries" source="x_spog_distributio">456c22ccdb3d87002ab570d9bf9619cb</sys_package>
             <sys_policy/>
@@ -74,7 +131,7 @@
             <sys_scope display_value="Distribution Customer Queries">456c22ccdb3d87002ab570d9bf9619cb</sys_scope>
             <sys_update_name>sys_choice_x_spog_distributio_distribution_customer_queries_category</sys_update_name>
             <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-09 15:08:26</sys_updated_on>
+            <sys_updated_on>2017-10-25 12:11:35</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

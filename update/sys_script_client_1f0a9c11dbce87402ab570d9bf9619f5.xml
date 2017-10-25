@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>x_dcq_call_type</field>
+        <global>true</global>
+        <messages/>
+        <name>Remove Categeory Options if Order/credit</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading ) {
+      return;
+   }
+	
+	if (newValue === 'Place an Order'){
+g_form.removeOption('category','Enquiry','Enquiry');
+g_form.removeOption('category','Quality','Quality');
+g_form.removeOption('category','Delivery','Delivery');
+g_form.removeOption('category','Delivery CR', 'Delivery CR');		
+g_form.addOption('category','Essilor','Essilor');
+g_form.addOption('category','Special','Special');
+	}
+	
+	if (newValue === 'Credit Request'){
+g_form.addOption('category','Quality','Quality');
+g_form.addOption('category','Delivery CR','Delivery CR');		
+g_form.removeOption('category','Delivery','Delivery');
+g_form.removeOption('category','Enquiry','Enquiry');
+g_form.removeOption('category','Essilor','Essilor');
+g_form.removeOption('category','Special','Special');
+	}
+	
+    if (newValue === 'Enquiry' || newValue === 'Problem'){
+g_form.removeOption('category','Essilor','Essilor');
+g_form.removeOption('category','Special','Special');
+g_form.removeOption('category','Delivery CR', 'Delivery CR');
+g_form.addOption('category','Enquiry','Enquiry');
+g_form.addOption('category','Quality','Quality');
+g_form.addOption('category','Delivery','Delivery');
+	}	
+	
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2017-10-25 11:30:55</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1f0a9c11dbce87402ab570d9bf9619f5</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Remove Categeory Options if Order/credit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Distribution Customer Queries" source="x_spog_distributio">456c22ccdb3d87002ab570d9bf9619cb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Distribution Customer Queries">456c22ccdb3d87002ab570d9bf9619cb</sys_scope>
+        <sys_update_name>sys_script_client_1f0a9c11dbce87402ab570d9bf9619f5</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2017-10-25 12:09:41</sys_updated_on>
+        <table>x_spog_distributio_distribution_customer_queries</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>
