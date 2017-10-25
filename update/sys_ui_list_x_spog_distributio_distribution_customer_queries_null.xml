@@ -4,77 +4,92 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_spog_distributio_distribution_customer_queries" element="NULL" name="x_spog_distributio_distribution_customer_queries" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">82e46c9ddbce87402ab570d9bf961984</list_id>
+            <list_id display_value="x_spog_distributio_distribution_customer_queries" element="NULL" name="x_spog_distributio_distribution_customer_queries" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5480cd15db42c7402ab570d9bf961938</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-25 12:13:04</sys_created_on>
-            <sys_id>8ee46c9ddbce87402ab570d9bf961984</sys_id>
+            <sys_created_on>2017-10-25 14:13:39</sys_created_on>
+            <sys_id>dc80cd15db42c7402ab570d9bf961938</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-25 12:13:04</sys_updated_on>
+            <sys_updated_on>2017-10-25 14:13:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>state</element>
-            <list_id display_value="x_spog_distributio_distribution_customer_queries" element="NULL" name="x_spog_distributio_distribution_customer_queries" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">82e46c9ddbce87402ab570d9bf961984</list_id>
+            <element>caller</element>
+            <list_id display_value="x_spog_distributio_distribution_customer_queries" element="NULL" name="x_spog_distributio_distribution_customer_queries" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5480cd15db42c7402ab570d9bf961938</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-25 12:13:04</sys_created_on>
-            <sys_id>86e46c9ddbce87402ab570d9bf961985</sys_id>
+            <sys_created_on>2017-10-25 14:13:39</sys_created_on>
+            <sys_id>5480cd15db42c7402ab570d9bf961939</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-25 12:13:04</sys_updated_on>
+            <sys_updated_on>2017-10-25 14:13:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>short_description</element>
-            <list_id display_value="x_spog_distributio_distribution_customer_queries" element="NULL" name="x_spog_distributio_distribution_customer_queries" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">82e46c9ddbce87402ab570d9bf961984</list_id>
+            <element>state</element>
+            <list_id display_value="x_spog_distributio_distribution_customer_queries" element="NULL" name="x_spog_distributio_distribution_customer_queries" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5480cd15db42c7402ab570d9bf961938</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-25 12:13:04</sys_created_on>
-            <sys_id>0ae46c9ddbce87402ab570d9bf961985</sys_id>
+            <sys_created_on>2017-10-25 14:13:39</sys_created_on>
+            <sys_id>d480cd15db42c7402ab570d9bf961939</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-25 12:13:04</sys_updated_on>
+            <sys_updated_on>2017-10-25 14:13:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>assigned_to</element>
-            <list_id display_value="x_spog_distributio_distribution_customer_queries" element="NULL" name="x_spog_distributio_distribution_customer_queries" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">82e46c9ddbce87402ab570d9bf961984</list_id>
+            <element>short_description</element>
+            <list_id display_value="x_spog_distributio_distribution_customer_queries" element="NULL" name="x_spog_distributio_distribution_customer_queries" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5480cd15db42c7402ab570d9bf961938</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-25 12:13:04</sys_created_on>
-            <sys_id>8ae46c9ddbce87402ab570d9bf961985</sys_id>
+            <sys_created_on>2017-10-25 14:13:39</sys_created_on>
+            <sys_id>5880cd15db42c7402ab570d9bf961939</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-25 12:13:04</sys_updated_on>
+            <sys_updated_on>2017-10-25 14:13:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>assignment_group</element>
-            <list_id display_value="x_spog_distributio_distribution_customer_queries" element="NULL" name="x_spog_distributio_distribution_customer_queries" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">82e46c9ddbce87402ab570d9bf961984</list_id>
+            <element>assigned_to</element>
+            <list_id display_value="x_spog_distributio_distribution_customer_queries" element="NULL" name="x_spog_distributio_distribution_customer_queries" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5480cd15db42c7402ab570d9bf961938</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-25 12:13:04</sys_created_on>
-            <sys_id>0ee46c9ddbce87402ab570d9bf961985</sys_id>
+            <sys_created_on>2017-10-25 14:13:39</sys_created_on>
+            <sys_id>d880cd15db42c7402ab570d9bf961939</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-25 12:13:04</sys_updated_on>
+            <sys_updated_on>2017-10-25 14:13:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="x_spog_distributio_distribution_customer_queries" element="NULL" name="x_spog_distributio_distribution_customer_queries" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5480cd15db42c7402ab570d9bf961938</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2017-10-25 14:13:39</sys_created_on>
+            <sys_id>5c80cd15db42c7402ab570d9bf961939</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-10-25 14:13:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -88,11 +103,11 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-25 12:13:04</sys_created_on>
+            <sys_created_on>2017-10-25 14:13:39</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>82e46c9ddbce87402ab570d9bf961984</sys_id>
+            <sys_id>5480cd15db42c7402ab570d9bf961938</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_spog_distributio_distribution_customer_queries</sys_name>
             <sys_package display_value="Distribution Customer Queries" source="x_spog_distributio">456c22ccdb3d87002ab570d9bf9619cb</sys_package>
@@ -101,7 +116,7 @@
             <sys_scope display_value="Distribution Customer Queries">456c22ccdb3d87002ab570d9bf9619cb</sys_scope>
             <sys_update_name>sys_ui_list_x_spog_distributio_distribution_customer_queries_null</sys_update_name>
             <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-25 12:13:04</sys_updated_on>
+            <sys_updated_on>2017-10-25 14:13:39</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
