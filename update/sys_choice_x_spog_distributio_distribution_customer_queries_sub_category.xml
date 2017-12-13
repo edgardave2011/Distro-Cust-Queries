@@ -62,7 +62,7 @@
             <dependent_value>Single Credit</dependent_value>
             <element>sub_category</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Coating</label>
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
@@ -72,9 +72,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>9b78f8cddb4b83002ab570d9bf961903</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jordan.thompson</sys_updated_by>
-            <sys_updated_on>2017-12-13 12:04:10</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-12-13 12:30:29</sys_updated_on>
             <value>Coating</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -176,7 +176,7 @@
             <dependent_value>Single Credit</dependent_value>
             <element>sub_category</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Lost in transit</label>
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
@@ -186,9 +186,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>fb79f4cddb4b83002ab570d9bf9619f0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jordan.thompson</sys_updated_by>
-            <sys_updated_on>2017-12-13 12:07:20</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-12-13 12:30:29</sys_updated_on>
             <value>Lost in transit</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -233,7 +233,7 @@
             <dependent_value>Single Credit</dependent_value>
             <element>sub_category</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Other</label>
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
@@ -243,9 +243,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>fb09b041db8b83002ab570d9bf96191b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jordan.thompson</sys_updated_by>
-            <sys_updated_on>2017-12-13 12:05:25</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-12-13 12:30:29</sys_updated_on>
             <value>Other</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -271,7 +271,7 @@
             <dependent_value>Single Credit</dependent_value>
             <element>sub_category</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Prescription</label>
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
@@ -281,9 +281,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>70d8bc01db8b83002ab570d9bf9619cf</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jordan.thompson</sys_updated_by>
-            <sys_updated_on>2017-12-13 12:04:24</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-12-13 12:30:28</sys_updated_on>
             <value>Prescription</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -423,7 +423,7 @@
             <dependent_value>Single Credit</dependent_value>
             <element>sub_category</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Scratch</label>
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
@@ -433,9 +433,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>33d8f8cddb4b83002ab570d9bf961967</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jordan.thompson</sys_updated_by>
-            <sys_updated_on>2017-12-13 12:04:36</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-12-13 12:30:29</sys_updated_on>
             <value>Scratch</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -461,7 +461,7 @@
             <dependent_value>Single Credit</dependent_value>
             <element>sub_category</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Thickness</label>
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
@@ -471,9 +471,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>36e8b041db8b83002ab570d9bf9619bc</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jordan.thompson</sys_updated_by>
-            <sys_updated_on>2017-12-13 12:04:48</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-12-13 12:30:29</sys_updated_on>
             <value>Thickness</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -499,7 +499,7 @@
             <dependent_value>Single Credit</dependent_value>
             <element>sub_category</element>
             <hint/>
-            <inactive>false</inactive>
+            <inactive>true</inactive>
             <label>Tint</label>
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
@@ -509,9 +509,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>46f83c01db8b83002ab570d9bf9619f4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jordan.thompson</sys_updated_by>
-            <sys_updated_on>2017-12-13 12:05:02</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2017-12-13 12:30:28</sys_updated_on>
             <value>Tint</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
