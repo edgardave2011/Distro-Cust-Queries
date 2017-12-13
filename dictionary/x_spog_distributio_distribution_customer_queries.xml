@@ -24,11 +24,9 @@
                 <element dependent_value="Delivery CR" label="Dispatch Error" value="Dispatch Error"/>
                 <element dependent_value="Enquiry" label="Invoice Query" value="Invoice Query"/>
                 <element dependent_value="Delivery CR" label="LIT" value="LIT"/>
-                <element dependent_value="Single Credit" label="Lost in transit" value="Lost in transit"/>
                 <element dependent_value="Delivery CR" label="Mispick" value="Mispick"/>
                 <element dependent_value="Delivery" label="No Delivery" value="No Delivery"/>
                 <element dependent_value="Quality" label="Prescription" value="Prescription"/>
-                <element dependent_value="Single Credit" label="Prescription" value="Prescription"/>
                 <element dependent_value="QLG Credit" label="QLG1 - Incorrect prescription (sphere, cyl, axis, prism, add)" value="QLG1"/>
                 <element dependent_value="QLG Credit" label="QLG2 - Incorrect lens type" value="QLG2"/>
                 <element dependent_value="QLG Credit" label="QLG3 - Missing coatings or treatments" value="QLG3"/>
@@ -37,10 +35,7 @@
                 <element dependent_value="QLG Credit" label="QLG6 - Uncut UltraClear or scratch-resistant treatment imperfections" value="QLG6"/>
                 <element dependent_value="QLG Credit" label="QLG7 - Cut lenses: emergency order" value="QLG7"/>
                 <element dependent_value="Quality" label="Scratch" value="Scratch"/>
-                <element dependent_value="Single Credit" label="Scratch" value="Scratch"/>
-                <element dependent_value="Single Credit" label="Thickness" value="Thickness"/>
                 <element dependent_value="Quality" label="Thickness" value="Thickness"/>
-                <element dependent_value="Single Credit" label="Tint" value="Tint"/>
                 <element dependent_value="Quality" label="Tint" value="Tint"/>
                 <element dependent_value="Delivery" label="Wrong Delivery" value="Wrong Delivery"/>
                 <element dependent_value="Delivery" label="Other" sequence="1" value="Other_Delivery"/>
