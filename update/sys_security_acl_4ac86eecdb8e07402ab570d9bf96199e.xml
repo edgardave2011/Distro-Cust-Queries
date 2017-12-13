@@ -12,7 +12,7 @@
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>david.edgar</sys_created_by>
         <sys_created_on>2017-10-23 13:53:48</sys_created_on>
-        <sys_customer_update>true</sys_customer_update>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>4ac86eecdb8e07402ab570d9bf96199e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_spog_distributio_distribution_customer_queries.assigned_to</sys_name>

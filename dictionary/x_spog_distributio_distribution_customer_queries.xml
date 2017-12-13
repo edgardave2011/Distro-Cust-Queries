@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element attributes="email_client=true" audit="true" extends="task" label="Distribution Customer Queries" max_length="40" name="x_spog_distributio_distribution_customer_queries" sizeclass="3" type="collection">
+    <element attributes="email_client=true" audit="true" extends="task" label="Distribution Customer Queries" max_length="40" name="x_spog_distributio_distribution_customer_queries" sizeclass="3" text_index="true" type="collection">
         <element label="Caller" max_length="32" name="caller" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Category" mandatory="true" max_length="40" name="category" type="string">
             <choice>
-                <element label="Delivery" value="Delivery"/>
                 <element label="Delivery CR" value="Delivery CR"/>
-                <element label="Enquiry" value="Enquiry"/>
                 <element label="Essilor" value="Essilor"/>
-                <element label="Quality" value="Quality"/>
+                <element label="QLG Credit" value="QLG Credit"/>
+                <element label="Single Credit" value="Single Credit"/>
                 <element label="Special" value="Special"/>
+                <element label="Quality" sequence="0" value="Quality"/>
+                <element label="Delivery" sequence="1" value="Delivery"/>
+                <element label="Enquiry" sequence="2" value="Enquiry"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="1" dependent="category" dependent_on_field="category" label="Sub Category" mandatory="true" max_length="40" name="sub_category" type="string" use_dependent_field="true">
@@ -17,16 +19,30 @@
                 <element dependent_value="Enquiry" label="Availability" value="Availability"/>
                 <element dependent_value="Delivery" label="Change of Address" value="Change of Address"/>
                 <element dependent_value="Enquiry" label="Chase" value="Chase"/>
+                <element dependent_value="Single Credit" label="Coating" value="Coating"/>
                 <element dependent_value="Quality" label="Coating" value="Coating"/>
                 <element dependent_value="Enquiry" label="Credit Chase" value="Credit Chase"/>
                 <element dependent_value="Delivery CR" label="Dispatch Error" value="Dispatch Error"/>
                 <element dependent_value="Enquiry" label="Invoice Query" value="Invoice Query"/>
                 <element dependent_value="Delivery CR" label="LIT" value="LIT"/>
+                <element dependent_value="Single Credit" label="Lost in transit" value="Lost in transit"/>
                 <element dependent_value="Delivery CR" label="Mispick" value="Mispick"/>
                 <element dependent_value="Delivery" label="No Delivery" value="No Delivery"/>
+                <element dependent_value="Single Credit" label="Other" value="Other"/>
                 <element dependent_value="Quality" label="Prescription" value="Prescription"/>
+                <element dependent_value="Single Credit" label="Prescription" value="Prescription"/>
+                <element dependent_value="QLG Credit" label="QLG1 - Incorrect prescription (sphere, cyl, axis, prism, add)" value="QLG1"/>
+                <element dependent_value="QLG Credit" label="QLG2 - Incorrect lens type" value="QLG2"/>
+                <element dependent_value="QLG Credit" label="QLG3 - Missing coatings or treatments" value="QLG3"/>
+                <element dependent_value="QLG Credit" label="QLG4 - Incorrect tint (colour and LTF)" value="QLG4"/>
+                <element dependent_value="QLG Credit" label="QLG5 - Uncut scratched lenses" value="QLG5"/>
+                <element dependent_value="QLG Credit" label="QLG6 - Uncut UltraClear or scratch-resistant treatment imperfections" value="QLG6"/>
+                <element dependent_value="QLG Credit" label="QLG7 - Cut lenses: emergency order" value="QLG7"/>
+                <element dependent_value="Single Credit" label="Scratch" value="Scratch"/>
                 <element dependent_value="Quality" label="Scratch" value="Scratch"/>
+                <element dependent_value="Single Credit" label="Thickness" value="Thickness"/>
                 <element dependent_value="Quality" label="Thickness" value="Thickness"/>
+                <element dependent_value="Single Credit" label="Tint" value="Tint"/>
                 <element dependent_value="Quality" label="Tint" value="Tint"/>
                 <element dependent_value="Delivery" label="Wrong Delivery" value="Wrong Delivery"/>
                 <element dependent_value="Delivery" label="Other" sequence="1" value="Other_Delivery"/>
@@ -38,7 +54,7 @@
         <element choice="1" label="Call Type" mandatory="true" max_length="40" name="x_dcq_call_type" type="choice">
             <choice>
                 <element label="Enquiry" sequence="0" value="Enquiry"/>
-                <element label="Problem" sequence="1" value="Problem"/>
+                <element label="Issue" sequence="1" value="Problem"/>
                 <element label="Credit Request" sequence="2" value="Credit Request"/>
                 <element label="Place an Order" sequence="3" value="Place an Order"/>
             </choice>
@@ -48,11 +64,11 @@
         <element label="Order Reference Number" max_length="40" name="x_dcq_order_ref_number" type="string"/>
         <element choice="1" label="Product" mandatory="true" max_length="40" name="x_dcq_product" type="choice">
             <choice>
-                <element label="Accessory" value="Accessory"/>
-                <element label="Case" value="Case"/>
-                <element label="Consumable" value="Consumable"/>
-                <element label="Finished Lens" value="Finished Lens"/>
                 <element label="Surfaced Lens" value="Surfaced Lens"/>
+                <element label="Finished Lens" sequence="0" value="Finished Lens"/>
+                <element label="Case" sequence="1" value="Case"/>
+                <element label="Consumable" sequence="2" value="Consumable"/>
+                <element label="Accessory" sequence="3" value="Accessory"/>
             </choice>
         </element>
         <element label="Quality Reference" max_length="40" name="x_dcq_quality_ref" type="string"/>

@@ -12,7 +12,7 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>david.edgar</sys_created_by>
             <sys_created_on>2017-10-09 14:51:09</sys_created_on>
-            <sys_customer_update>true</sys_customer_update>
+            <sys_customer_update>false</sys_customer_update>
             <sys_id>29af2a44db7d87002ab570d9bf96199d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Quality Reference</sys_name>

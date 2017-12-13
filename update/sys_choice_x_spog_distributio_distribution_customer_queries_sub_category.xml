@@ -10,14 +10,14 @@
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sequence/>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-09 15:11:09</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 11:09:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>83243e48db7d87002ab570d9bf96199c</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-09 15:11:28</sys_updated_on>
+            <sys_id>3c66185d4f024f4019baf9b7c210c758</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-25 11:09:38</sys_updated_on>
             <value>Availability</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -29,14 +29,14 @@
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sequence/>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-09 15:09:25</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 11:09:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>1dd3f648db7d87002ab570d9bf96195c</sys_id>
-            <sys_mod_count>4</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-09 15:25:49</sys_updated_on>
+            <sys_id>7c66185d4f024f4019baf9b7c210c758</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-25 11:09:38</sys_updated_on>
             <value>Change of Address</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -48,15 +48,34 @@
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sequence/>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-09 15:10:54</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 11:09:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>53d3f648db7d87002ab570d9bf961964</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-09 15:11:04</sys_updated_on>
+            <sys_id>bc66185d4f024f4019baf9b7c210c758</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-25 11:09:38</sys_updated_on>
             <value>Chase</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Single Credit</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Coating</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>jordan.thompson</sys_created_by>
+            <sys_created_on>2017-12-13 12:04:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9b78f8cddb4b83002ab570d9bf961903</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jordan.thompson</sys_updated_by>
+            <sys_updated_on>2017-12-13 12:04:10</sys_updated_on>
+            <value>Coating</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Quality</dependent_value>
@@ -67,14 +86,14 @@
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sequence/>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-09 15:09:25</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 11:09:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>05d3f648db7d87002ab570d9bf961952</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-09 15:25:50</sys_updated_on>
+            <sys_id>fc66185d4f024f4019baf9b7c210c758</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-25 11:09:38</sys_updated_on>
             <value>Coating</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -86,14 +105,14 @@
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sequence/>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-09 15:11:45</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 11:09:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>2054fa48db7d87002ab570d9bf9619e5</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-09 15:11:50</sys_updated_on>
+            <sys_id>3066185d4f024f4019baf9b7c210c759</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-25 11:09:38</sys_updated_on>
             <value>Credit Chase</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -105,14 +124,14 @@
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sequence/>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-25 11:56:29</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 14:17:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0301e095dbce87402ab570d9bf961984</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-25 12:10:24</sys_updated_on>
+            <sys_id>29610dd54f8acf4019baf9b7c210c728</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-25 14:17:33</sys_updated_on>
             <value>Dispatch Error</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -124,14 +143,14 @@
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sequence/>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-09 15:11:33</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 11:09:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>66347e48db7d87002ab570d9bf961924</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-09 15:11:39</sys_updated_on>
+            <sys_id>7066185d4f024f4019baf9b7c210c759</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-25 11:09:38</sys_updated_on>
             <value>Invoice Query</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -143,15 +162,34 @@
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sequence/>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-25 11:55:50</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 14:17:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>d4e0e095dbce87402ab570d9bf961983</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-25 12:10:24</sys_updated_on>
+            <sys_id>25610dd54f8acf4019baf9b7c210c781</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-25 14:17:33</sys_updated_on>
             <value>LIT</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Single Credit</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lost in transit</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>jordan.thompson</sys_created_by>
+            <sys_created_on>2017-12-13 12:07:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fb79f4cddb4b83002ab570d9bf9619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jordan.thompson</sys_updated_by>
+            <sys_updated_on>2017-12-13 12:07:20</sys_updated_on>
+            <value>Lost in transit</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Delivery CR</dependent_value>
@@ -162,14 +200,14 @@
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sequence/>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-25 11:56:13</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 14:17:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>75f0a055dbce87402ab570d9bf9619dc</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-25 12:10:18</sys_updated_on>
+            <sys_id>ad610dd54f8acf4019baf9b7c210c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-25 14:17:33</sys_updated_on>
             <value>Mispick</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -181,15 +219,34 @@
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sequence/>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-09 15:09:25</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 11:09:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>15d3f648db7d87002ab570d9bf961959</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-09 15:25:49</sys_updated_on>
+            <sys_id>f066585d4f024f4019baf9b7c210c777</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-25 11:09:38</sys_updated_on>
             <value>No Delivery</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Single Credit</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>jordan.thompson</sys_created_by>
+            <sys_created_on>2017-12-13 12:05:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fb09b041db8b83002ab570d9bf96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jordan.thompson</sys_updated_by>
+            <sys_updated_on>2017-12-13 12:05:25</sys_updated_on>
+            <value>Other</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Quality</dependent_value>
@@ -200,15 +257,186 @@
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sequence/>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-09 15:09:25</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 11:09:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0dd3f648db7d87002ab570d9bf961955</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-09 15:25:49</sys_updated_on>
+            <sys_id>3466585d4f024f4019baf9b7c210c777</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-25 11:09:38</sys_updated_on>
             <value>Prescription</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Single Credit</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Prescription</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>jordan.thompson</sys_created_by>
+            <sys_created_on>2017-12-13 12:04:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>70d8bc01db8b83002ab570d9bf9619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jordan.thompson</sys_updated_by>
+            <sys_updated_on>2017-12-13 12:04:24</sys_updated_on>
+            <value>Prescription</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>QLG Credit</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>QLG1 - Incorrect prescription (sphere, cyl, axis, prism, add)</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>jordan.thompson</sys_created_by>
+            <sys_created_on>2017-12-13 12:00:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6e770cddb4b83002ab570d9bf961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jordan.thompson</sys_updated_by>
+            <sys_updated_on>2017-12-13 12:00:59</sys_updated_on>
+            <value>QLG1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>QLG Credit</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>QLG2 - Incorrect lens type</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>jordan.thompson</sys_created_by>
+            <sys_created_on>2017-12-13 12:01:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0718744ddb4b83002ab570d9bf9619cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jordan.thompson</sys_updated_by>
+            <sys_updated_on>2017-12-13 12:01:16</sys_updated_on>
+            <value>QLG2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>QLG Credit</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>QLG3 - Missing coatings or treatments</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>jordan.thompson</sys_created_by>
+            <sys_created_on>2017-12-13 12:01:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ea28f801db8b83002ab570d9bf9619f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jordan.thompson</sys_updated_by>
+            <sys_updated_on>2017-12-13 12:01:31</sys_updated_on>
+            <value>QLG3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>QLG Credit</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>QLG4 - Incorrect tint (colour and LTF)</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>jordan.thompson</sys_created_by>
+            <sys_created_on>2017-12-13 12:01:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca38f801db8b83002ab570d9bf9619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jordan.thompson</sys_updated_by>
+            <sys_updated_on>2017-12-13 12:01:45</sys_updated_on>
+            <value>QLG4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>QLG Credit</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>QLG5 - Uncut scratched lenses</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>jordan.thompson</sys_created_by>
+            <sys_created_on>2017-12-13 12:02:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f548b8cddb4b83002ab570d9bf9619fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jordan.thompson</sys_updated_by>
+            <sys_updated_on>2017-12-13 12:02:01</sys_updated_on>
+            <value>QLG5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>QLG Credit</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>QLG6 - Uncut UltraClear or scratch-resistant treatment imperfections</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>jordan.thompson</sys_created_by>
+            <sys_created_on>2017-12-13 12:02:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2158f8cddb4b83002ab570d9bf96195e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jordan.thompson</sys_updated_by>
+            <sys_updated_on>2017-12-13 12:02:16</sys_updated_on>
+            <value>QLG6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>QLG Credit</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>QLG7 - Cut lenses: emergency order</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>jordan.thompson</sys_created_by>
+            <sys_created_on>2017-12-13 12:02:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b5687c4ddb4b83002ab570d9bf9619e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jordan.thompson</sys_updated_by>
+            <sys_updated_on>2017-12-13 12:02:34</sys_updated_on>
+            <value>QLG7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Single Credit</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Scratch</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>jordan.thompson</sys_created_by>
+            <sys_created_on>2017-12-13 12:04:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33d8f8cddb4b83002ab570d9bf961967</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jordan.thompson</sys_updated_by>
+            <sys_updated_on>2017-12-13 12:04:36</sys_updated_on>
+            <value>Scratch</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Quality</dependent_value>
@@ -219,15 +447,34 @@
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sequence/>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-09 15:09:25</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 11:09:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>01d3f648db7d87002ab570d9bf961954</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-09 15:25:50</sys_updated_on>
+            <sys_id>7466585d4f024f4019baf9b7c210c777</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-25 11:09:38</sys_updated_on>
             <value>Scratch</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Single Credit</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Thickness</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>jordan.thompson</sys_created_by>
+            <sys_created_on>2017-12-13 12:04:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>36e8b041db8b83002ab570d9bf9619bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jordan.thompson</sys_updated_by>
+            <sys_updated_on>2017-12-13 12:04:48</sys_updated_on>
+            <value>Thickness</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Quality</dependent_value>
@@ -238,15 +485,34 @@
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sequence/>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-09 15:09:25</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 11:09:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>09d3f648db7d87002ab570d9bf961950</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-09 15:25:50</sys_updated_on>
+            <sys_id>b466585d4f024f4019baf9b7c210c777</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-25 11:09:38</sys_updated_on>
             <value>Thickness</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Single Credit</dependent_value>
+            <element>sub_category</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tint</label>
+            <language>en</language>
+            <name>x_spog_distributio_distribution_customer_queries</name>
+            <sequence/>
+            <sys_created_by>jordan.thompson</sys_created_by>
+            <sys_created_on>2017-12-13 12:05:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>46f83c01db8b83002ab570d9bf9619f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jordan.thompson</sys_updated_by>
+            <sys_updated_on>2017-12-13 12:05:02</sys_updated_on>
+            <value>Tint</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>Quality</dependent_value>
@@ -257,14 +523,14 @@
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sequence/>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-09 15:09:24</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 11:09:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>0dd3b248db7d87002ab570d9bf96191b</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-09 15:25:50</sys_updated_on>
+            <sys_id>f466585d4f024f4019baf9b7c210c777</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-25 11:09:38</sys_updated_on>
             <value>Tint</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -276,14 +542,14 @@
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sequence/>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-09 15:09:25</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 11:09:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>11d3f648db7d87002ab570d9bf96195b</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-09 15:25:49</sys_updated_on>
+            <sys_id>3866585d4f024f4019baf9b7c210c777</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-25 11:09:38</sys_updated_on>
             <value>Wrong Delivery</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -295,14 +561,14 @@
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sequence>1</sequence>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-09 15:09:25</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 11:09:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>19d3f648db7d87002ab570d9bf961957</sys_id>
-            <sys_mod_count>6</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-25 12:11:21</sys_updated_on>
+            <sys_id>7866585d4f024f4019baf9b7c210c777</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-25 11:09:38</sys_updated_on>
             <value>Other_Delivery</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -314,14 +580,14 @@
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sequence>1</sequence>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-09 15:11:52</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 11:09:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>af54fe48db7d87002ab570d9bf961958</sys_id>
-            <sys_mod_count>3</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-09 15:26:03</sys_updated_on>
+            <sys_id>f866585d4f024f4019baf9b7c210c777</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-25 11:09:38</sys_updated_on>
             <value>Other_Enquiry</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -333,33 +599,33 @@
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sequence>1</sequence>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-09 15:12:04</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 11:09:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>51647288db7d87002ab570d9bf961963</sys_id>
-            <sys_mod_count>4</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-09 15:26:03</sys_updated_on>
+            <sys_id>b866585d4f024f4019baf9b7c210c777</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-25 11:09:38</sys_updated_on>
             <value>Other_Quality</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>sub_category</element>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-09 15:09:25</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 11:09:38</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>c1d3f648db7d87002ab570d9bf961950</sys_id>
-            <sys_mod_count>59</sys_mod_count>
+            <sys_id>fc66585d4f024f4019baf9b7c210c777</sys_id>
+            <sys_mod_count>0</sys_mod_count>
             <sys_name>sub_category</sys_name>
             <sys_package display_value="Distribution Customer Queries" source="x_spog_distributio">456c22ccdb3d87002ab570d9bf9619cb</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Distribution Customer Queries">456c22ccdb3d87002ab570d9bf9619cb</sys_scope>
             <sys_update_name>sys_choice_x_spog_distributio_distribution_customer_queries_sub_category</sys_update_name>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-25 12:11:21</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-25 11:09:38</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

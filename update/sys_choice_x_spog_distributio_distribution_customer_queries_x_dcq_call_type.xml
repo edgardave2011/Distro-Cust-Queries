@@ -10,14 +10,14 @@
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sequence>0</sequence>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-09 15:07:04</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 11:09:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>be433e08db7d87002ab570d9bf9619d9</sys_id>
+            <sys_id>7c66585d4f024f4019baf9b7c210c779</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-09 15:07:04</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-25 11:09:38</sys_updated_on>
             <value>Enquiry</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -25,18 +25,18 @@
             <element>x_dcq_call_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Problem</label>
+            <label>Issue</label>
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sequence>1</sequence>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-09 15:07:04</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 11:09:38</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>7e433e08db7d87002ab570d9bf9619db</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>bc66585d4f024f4019baf9b7c210c779</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-09 15:07:04</sys_updated_on>
+            <sys_updated_on>2017-11-22 16:07:25</sys_updated_on>
             <value>Problem</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -48,14 +48,14 @@
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sequence>2</sequence>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-25 11:16:30</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 14:17:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>6df79c9ddb8e87402ab570d9bf9619ce</sys_id>
+            <sys_id>e1610dd54f8acf4019baf9b7c210c785</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-25 11:16:30</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-25 14:17:33</sys_updated_on>
             <value>Credit Request</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -67,25 +67,25 @@
             <language>en</language>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sequence>3</sequence>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-25 11:16:30</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 14:17:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>69f79c9ddb8e87402ab570d9bf9619d0</sys_id>
+            <sys_id>6d610dd54f8acf4019baf9b7c210c786</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-25 11:16:30</sys_updated_on>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2017-10-25 14:17:33</sys_updated_on>
             <value>Place an Order</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>x_dcq_call_type</element>
             <name>x_spog_distributio_distribution_customer_queries</name>
             <sys_class_name>sys_choice_set</sys_class_name>
-            <sys_created_by>david.edgar</sys_created_by>
-            <sys_created_on>2017-10-09 15:07:04</sys_created_on>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2017-10-25 11:09:38</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>3a433e08db7d87002ab570d9bf9619db</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_id>b066585d4f024f4019baf9b7c210c77a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_name>x_dcq_call_type</sys_name>
             <sys_package display_value="Distribution Customer Queries" source="x_spog_distributio">456c22ccdb3d87002ab570d9bf9619cb</sys_package>
             <sys_policy/>
@@ -93,7 +93,7 @@
             <sys_scope display_value="Distribution Customer Queries">456c22ccdb3d87002ab570d9bf9619cb</sys_scope>
             <sys_update_name>sys_choice_x_spog_distributio_distribution_customer_queries_x_dcq_call_type</sys_update_name>
             <sys_updated_by>david.edgar</sys_updated_by>
-            <sys_updated_on>2017-10-25 11:16:30</sys_updated_on>
+            <sys_updated_on>2017-11-22 16:07:25</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>
