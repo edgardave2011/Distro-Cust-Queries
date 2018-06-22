@@ -22,12 +22,23 @@
       return;
    }
 	
-	if (newValue === 'Essilor' || newValue === 'Special' || newValue === '-- None --'){
-g_form.setMandatory('x_dcq_cat', false);
-		g_form.clearOptions('x_dcq_cat');
+	if (newValue === 'Essilor'){ // || newValue === 'Special' || newValue === '-- None --'){
+g_form.clearOptions('x_dcq_cat');
+		g_form.setMandatory('x_dcq_cat', false);
+		g_form.setDisplay('x_dcq_cat', false);
 	}
-	else g_form.setMandatory('x_dcq_cat', true);
+// 	else if (newValue === 'Special' ){
+// 		g_form.setMandatory('x_dcq_cat', false);
+// 		g_form.clearOptions('x_dcq_cat');
+// 		g_form.setDisplay('x_dcq_cat', false);
+// 	}
+// 		else if (newValue === '' ){
+// 		g_form.setMandatory('x_dcq_cat', false);
+// 		g_form.clearOptions('x_dcq_cat');
+// 		g_form.setDisplay('x_dcq_cat', false);
+// 	}
 	
+	else g_form.setMandatory('x_dcq_cat', true);
 	
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
@@ -37,7 +48,7 @@ g_form.setMandatory('x_dcq_cat', false);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4f39fbb44ff3470021a168d18110c7a1</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Make Sub Cat option for Place Order</sys_name>
         <sys_overrides/>
         <sys_package display_value="Distribution Customer Queries" source="x_spog_distributio">456c22ccdb3d87002ab570d9bf9619cb</sys_package>
@@ -46,7 +57,7 @@ g_form.setMandatory('x_dcq_cat', false);
         <sys_scope display_value="Distribution Customer Queries">456c22ccdb3d87002ab570d9bf9619cb</sys_scope>
         <sys_update_name>catalog_script_client_4f39fbb44ff3470021a168d18110c7a1</sys_update_name>
         <sys_updated_by>david.edgar</sys_updated_by>
-        <sys_updated_on>2018-01-19 16:32:40</sys_updated_on>
+        <sys_updated_on>2018-01-26 14:20:26</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

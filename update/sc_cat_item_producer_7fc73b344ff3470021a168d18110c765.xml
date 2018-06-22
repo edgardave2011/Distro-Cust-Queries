@@ -69,8 +69,9 @@ producer.redirect = 'ticket_redirect.do?sysparm_number=' + current.number;]]></s
         <table_name>x_spog_distributio_distribution_customer_queries</table_name>
         <template/>
         <type>item</type>
+        <u_available_for_country_type/>
         <u_available_for_store_type/>
-        <u_engineer_hours>0</u_engineer_hours>
+        <u_engineer_hours/>
         <u_fujitsu_item>false</u_fujitsu_item>
         <u_technical_approval_required>false</u_technical_approval_required>
         <use_sc_layout>true</use_sc_layout>

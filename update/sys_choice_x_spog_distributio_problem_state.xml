@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_spog_distributio_problem" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>New</label>
+            <language>en</language>
+            <name>x_spog_distributio_problem</name>
+            <sequence>0</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2018-06-22 14:30:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>640205a24fbedfc021a168d18110c794</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2018-06-22 14:31:27</sys_updated_on>
+            <value>-5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open</label>
+            <language>en</language>
+            <name>x_spog_distributio_problem</name>
+            <sequence>1</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2018-06-22 14:30:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>640205a24fbedfc021a168d18110c796</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2018-06-22 14:30:52</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Work in Progress</label>
+            <language>en</language>
+            <name>x_spog_distributio_problem</name>
+            <sequence>2</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2018-06-22 14:30:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a00205a24fbedfc021a168d18110c798</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2018-06-22 14:30:52</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fixed Issue</label>
+            <language>en</language>
+            <name>x_spog_distributio_problem</name>
+            <sequence>3</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2018-06-22 14:30:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ec0205a24fbedfc021a168d18110c799</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2018-06-22 14:30:52</sys_updated_on>
+            <value>fixed_issue</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Known Error</label>
+            <language>en</language>
+            <name>x_spog_distributio_problem</name>
+            <sequence>4</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2018-06-22 14:30:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2c0205a24fbedfc021a168d18110c79b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2018-06-22 14:30:52</sys_updated_on>
+            <value>-11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Complete</label>
+            <language>en</language>
+            <name>x_spog_distributio_problem</name>
+            <sequence>5</sequence>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2018-06-22 14:30:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a80205a24fbedfc021a168d18110c79d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2018-06-22 14:30:53</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_spog_distributio_problem</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>david.edgar</sys_created_by>
+            <sys_created_on>2018-06-22 14:30:52</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>600205a24fbedfc021a168d18110c796</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="Distribution Customer Queries" source="x_spog_distributio">456c22ccdb3d87002ab570d9bf9619cb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Distribution Customer Queries">456c22ccdb3d87002ab570d9bf9619cb</sys_scope>
+            <sys_update_name>sys_choice_x_spog_distributio_problem_state</sys_update_name>
+            <sys_updated_by>david.edgar</sys_updated_by>
+            <sys_updated_on>2018-06-22 14:30:52</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

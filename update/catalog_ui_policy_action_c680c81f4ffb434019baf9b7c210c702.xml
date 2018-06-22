@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Distribution Customer Query">7fc73b344ff3470021a168d18110c765</catalog_item>
+        <catalog_variable>IO:36a8180d4f77470021a168d18110c73b</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>steve.hardstaff</sys_created_by>
+        <sys_created_on>2018-01-26 14:32:11</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c680c81f4ffb434019baf9b7c210c702</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_dcq_cat</sys_name>
+        <sys_package display_value="Distribution Customer Queries" source="x_spog_distributio">456c22ccdb3d87002ab570d9bf9619cb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Distribution Customer Queries">456c22ccdb3d87002ab570d9bf9619cb</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_c680c81f4ffb434019baf9b7c210c702</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2018-01-26 14:33:58</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Hide Sub Cat is Ellisor or Special">300eb7cb4f7b434019baf9b7c210c776</ui_policy>
+        <variable>x_dcq_cat</variable>
+        <variable_set/>
+        <visible>false</visible>
+    </catalog_ui_policy_action>
+</record_update>

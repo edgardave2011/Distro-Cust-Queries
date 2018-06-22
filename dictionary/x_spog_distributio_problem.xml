@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="Problem" max_length="40" name="x_spog_distributio_problem" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="External Reference" max_length="100" name="external_reference" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Internal Reference" max_length="100" name="internal_reference" type="string"/>
+        <element label="Lab" max_length="32" name="lab" reference="u_lab" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="Incident" label="Problem Source" max_length="40" name="problem_source" type="string">
+            <choice>
+                <element label="Escalation" sequence="0" value="Escalation"/>
+                <element label="Incident" sequence="1" value="Incident"/>
+                <element label="Major Incident" sequence="2" value="Major Incident"/>
+                <element label="Pro-Active" sequence="3" value="Pro-Active"/>
+            </choice>
+        </element>
+        <element choice="1" label="Business Area" mandatory="true" max_length="40" name="u_dcq_ba" type="choice">
+            <choice>
+                <element label="Administration" value="Administration"/>
+                <element label="Customer Service" value="Customer Service"/>
+                <element label="IT" value="IT"/>
+                <element label="Operations" value="Operations"/>
+                <element label="Procurement" value="Procurement"/>
+                <element label="Quality" value="Quality"/>
+            </choice>
+        </element>
+        <element label="Location" max_length="32" name="u_dcq_companies" reference="core_company" type="reference"/>
+        <element choice="1" label="Component" mandatory="true" max_length="40" name="u_dcq_component" type="choice">
+            <choice>
+                <element label="Cases/Consumables/Accessories" sequence="0" value="Cases/Consumables/Accessories"/>
+                <element label="Lens Stock" sequence="1" value="Lens Stock"/>
+                <element label="Lens Surfaced" sequence="2" value="Lens Surfaced"/>
+                <element label="Semi Finished" sequence="3" value="Semi Finished"/>
+            </choice>
+        </element>
+        <element choice="1" label="DCQ Location" mandatory="true" max_length="40" name="u_dcq_location" type="choice">
+            <choice>
+                <element label="Hi-Spec" sequence="0" value="Hi-Spec"/>
+                <element label="VLS" sequence="1" value="VLS"/>
+                <element label="AOL" sequence="2" value="AOL"/>
+                <element label="SOK" sequence="3" value="SOK"/>
+                <element label="Optimum" sequence="4" value="Optimum"/>
+                <element label="Essilor" sequence="5" value="Essilor"/>
+                <element label="Seiko" sequence="6" value="Seiko"/>
+                <element label="Pioneer" sequence="7" value="Pioneer"/>
+            </choice>
+        </element>
+        <element label="MDQ Ticket" max_length="32" name="u_dcq_query" reference="x_spog_distributio_distribution_customer_queries" type="reference"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Territory Affected" max_length="1024" name="u_dcq_territory" reference="u_specsaver_territories" type="glide_list"/>
+        <index name="index">
+            <element name="u_dcq_companies"/>
+        </index>
+        <index name="index2">
+            <element name="u_dcq_query"/>
+        </index>
+        <index name="index3">
+            <element name="lab"/>
+        </index>
+    </element>
+</database>

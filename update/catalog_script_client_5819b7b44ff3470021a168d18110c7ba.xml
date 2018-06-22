@@ -26,7 +26,9 @@
 g_form.removeOption('category','Enquiry','Enquiry');
 g_form.removeOption('category','Quality','Quality');
 g_form.removeOption('category','Delivery','Delivery');
-g_form.removeOption('category','Delivery CR', 'Delivery CR');		
+g_form.removeOption('category','Delivery CR', 'Delivery CR');
+g_form.removeOption('category','QLG Credit','QLG Credit');
+g_form.removeOption('category','Single Credit','Single Credit');
 g_form.addOption('category','Essilor','Essilor');
 g_form.addOption('category','Special','Special');
 	}
@@ -46,6 +48,8 @@ g_form.removeOption('category','Special','Special');
 g_form.removeOption('category','Essilor','Essilor');
 g_form.removeOption('category','Special','Special');
 g_form.removeOption('category','Delivery CR', 'Delivery CR');
+g_form.removeOption('category','QLG Credit','QLG Credit');
+g_form.removeOption('category','Single Credit','Single Credit');
 g_form.addOption('category','Enquiry','Enquiry');
 g_form.addOption('category','Quality','Quality');
 g_form.addOption('category','Delivery','Delivery');
@@ -60,7 +64,7 @@ g_form.addOption('category','Delivery','Delivery');
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5819b7b44ff3470021a168d18110c7ba</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Remove Categeory Options if Order/credit</sys_name>
         <sys_overrides/>
         <sys_package display_value="Distribution Customer Queries" source="x_spog_distributio">456c22ccdb3d87002ab570d9bf9619cb</sys_package>
@@ -69,7 +73,7 @@ g_form.addOption('category','Delivery','Delivery');
         <sys_scope display_value="Distribution Customer Queries">456c22ccdb3d87002ab570d9bf9619cb</sys_scope>
         <sys_update_name>catalog_script_client_5819b7b44ff3470021a168d18110c7ba</sys_update_name>
         <sys_updated_by>david.edgar</sys_updated_by>
-        <sys_updated_on>2018-01-19 14:14:34</sys_updated_on>
+        <sys_updated_on>2018-01-26 14:35:59</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

@@ -62,7 +62,7 @@
         <sys_scope display_value="Distribution Customer Queries">456c22ccdb3d87002ab570d9bf9619cb</sys_scope>
         <sys_update_name>sys_dictionary_x_spog_distributio_distribution_customer_queries_x_dcq_mdq_problem</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2017-10-27 15:59:26</sys_updated_on>
+        <sys_updated_on>2018-01-19 16:45:26</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
