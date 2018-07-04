@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="New Query">8a5f90634f7ed30421a168d18110c725</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2018-06-25 14:47:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c8a2e4274f7ed30421a168d18110c75e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Query.Stores</sys_name>
+        <sys_package display_value="Distribution Customer Queries" source="x_spog_distributio">456c22ccdb3d87002ab570d9bf9619cb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Distribution Customer Queries">456c22ccdb3d87002ab570d9bf9619cb</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_c8a2e4274f7ed30421a168d18110c75e</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2018-06-25 14:47:41</sys_updated_on>
+        <user_criteria display_value="Stores">48674dad37cc528050579c9953990e1f</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>

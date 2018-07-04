@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition>gs.hasRole("x_spog_distributio.problem_user")</condition>
+        <form_action>true</form_action>
+        <form_button>false</form_button>
+        <form_context_menu>true</form_context_menu>
+        <form_link>true</form_link>
+        <form_style>primary</form_style>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Create Problem</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[(function execute() {
+	var problem = new GlideRecord("x_spog_distributio_problem"),
+		sysID,
+		mySysID;
+	//problem.short_description = current.short_description;
+	problem.description = current.description;	
+	problem.state = '-5';
+	problem.work_notes = ("Created from Queries ticket " + current.number);
+	problem.problem_source = 'Incident';
+	problem.u_dcq_query = current.sys_id;
+	sysID = problem.insert();
+	mySysID = current.update();
+	gs.addInfoMessage("Problem created: " + problem.number);
+
+	action.setRedirectURL(problem);
+	action.setReturnURL(current);
+	
+}());]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>david.edgar</sys_created_by>
+        <sys_created_on>2018-06-25 12:40:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>10758c6b4fbad30421a168d18110c7ed</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>Create Problem</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Distribution Customer Queries" source="x_spog_distributio">456c22ccdb3d87002ab570d9bf9619cb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Distribution Customer Queries">456c22ccdb3d87002ab570d9bf9619cb</sys_scope>
+        <sys_update_name>sys_ui_action_10758c6b4fbad30421a168d18110c7ed</sys_update_name>
+        <sys_updated_by>david.edgar</sys_updated_by>
+        <sys_updated_on>2018-06-25 13:46:25</sys_updated_on>
+        <table>x_spog_distributio_distribution_customer_queries</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

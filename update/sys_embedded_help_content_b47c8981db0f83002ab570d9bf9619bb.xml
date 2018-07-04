@@ -4,7 +4,7 @@
         <active>true</active>
         <category>service-mapping</category>
         <content><![CDATA[    <h1 class="title topictitle1">Create actual business services during planning</h1>        <div class="body taskbody">        <ol class="ol steps"><li class="li step stepexpand">                <span class="ph cmd">Collect the following data and enter it in this form:</span>                <div class="itemgroup info">                    <ul class="ul" id="sa_dw_business_service-normal__ul_nb1_swd_lw"><li class="li">The name of the business service.</li><li class="li">The name of the service deployment owner. <span class="ph">The service                    deployment owner is responsible for creating and fixing business services during                    planning.</span>                        </li><li class="li">Entry points. <span class="ph">An entry point is a property of a connection to a                    configuration item (CI). </span>                        </li></ul>                </div>            </li><li class="li step stepexpand">                <span class="ph cmd">Test connectivity for the entry points.</span>            </li><li class="li step stepexpand">                <span class="ph cmd">Create an actual business service:</span>                <div class="itemgroup info">A user with the sm_admin role and defined as the service deployment owner for                    this business service completes this step.</div>                <ol class="ol substeps" id="sa_dw_business_service-normal__substeps_lx1_422_lw"><li class="li substep">                        <span class="ph cmd">Click <span class="ph uicontrol">Create and Discover</span>.</span>                    </li><li class="li substep">                        <span class="ph cmd">Enter the name of the application owner. <span class="ph">The application owner is familiar with the                    infrastructure and applications making up the service. This user provides                    information necessary for successful mapping of a business service. Once a                    service is mapped, this user reviews the results and either approves it or                    suggests changes.</span></span>                    </li><li class="li substep">                        <span class="ph cmd">Click <span class="ph uicontrol">Send for Review</span>.</span>                    </li></ol>            </li><li class="li step stepexpand">                <span class="ph cmd">Review and approve the business service:</span>                <div class="itemgroup info">A user with the sm_app_owner role and defined as the application owner for                    this business service completes this step.</div>                <ol class="ol substeps" id="sa_dw_business_service-normal__substeps_amt_522_lw"><li class="li substep">                        <span class="ph cmd">Click <span class="ph uicontrol">View Map</span> and review the map.</span>                    </li><li class="li substep">                        <span class="ph cmd">Enter your comments in the <span class="ph uicontrol">Notes</span> field.</span>                    </li><li class="li substep">                        <span class="ph cmd">If the mapping results are satisfactory, click                                <span class="ph uicontrol">Approve</span>.</span>                    </li></ol>            </li></ol>    </div>    <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:creation-actual-services-planning&amp;version&#61;jakarta" target="_blank" rel="nofollow">Creation of actual business services during planning</a></div><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:plan-business-services&amp;version&#61;jakarta" target="_blank" rel="nofollow">Plan business services</a></div></div></div></div>]]></content>
-        <last_sync>2018-06-08 16:34:10</last_sync>
+        <last_sync>2018-06-23 16:34:11</last_sync>
         <modifier>normal</modifier>
         <name>sa_dw_business_service-normal</name>
         <page>sa_dw_business_service</page>
@@ -18,7 +18,7 @@
         <sys_created_on>2017-12-13 13:30:08</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b47c8981db0f83002ab570d9bf9619bb</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>sa_dw_business_service-normal</sys_name>
         <sys_package display_value="Distribution Customer Queries" source="x_spog_distributio">456c22ccdb3d87002ab570d9bf9619cb</sys_package>
         <sys_policy/>
@@ -26,7 +26,7 @@
         <sys_scope display_value="Distribution Customer Queries">456c22ccdb3d87002ab570d9bf9619cb</sys_scope>
         <sys_update_name>sys_embedded_help_content_b47c8981db0f83002ab570d9bf9619bb</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-06-08 16:34:10</sys_updated_on>
+        <sys_updated_on>2018-06-23 16:34:11</sys_updated_on>
         <version>j</version>
     </sys_embedded_help_content>
 </record_update>

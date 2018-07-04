@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Problem" max_length="40" name="x_spog_distributio_problem" type="collection">
+    <element attributes="email_client=true" audit="true" extends="task" label="Problem" max_length="40" name="x_spog_distributio_problem" sizeclass="20" type="collection">
         <element attributes="edge_encryption_enabled=true" label="External Reference" max_length="100" name="external_reference" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Internal Reference" max_length="100" name="internal_reference" type="string"/>
         <element label="Lab" max_length="32" name="lab" reference="u_lab" type="reference"/>
